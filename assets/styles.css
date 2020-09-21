@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'DokChampa';
+    src: url('../fonts/DokChampa.woff2') format('woff2'),
+        url('../fonts/DokChampa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('../fonts/FavoritPro-Bold.woff2') format('woff2'),
+        url('../fonts/FavoritPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('../fonts/FavoritPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/FavoritPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro Book';
+    src: url('../fonts/FavoritPro-Book.woff2') format('woff2'),
+        url('../fonts/FavoritPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('../fonts/FavoritPro-LightItalic.woff2') format('woff2'),
+        url('../fonts/FavoritPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('../fonts/FavoritPro-Medium.woff2') format('woff2'),
+        url('../fonts/FavoritPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('../fonts/FavoritPro-MediumItalic.woff2') format('woff2'),
+        url('../fonts/FavoritPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('../fonts/FavoritPro-Italic.woff2') format('woff2'),
+        url('../fonts/FavoritPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('../fonts/FavoritPro-Light.woff2') format('woff2'),
+        url('../fonts/FavoritPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro Book';
+    src: url('../fonts/FavoritPro-BookItalic.woff2') format('woff2'),
+        url('../fonts/FavoritPro-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('../fonts/FavoritPro-Regular.woff2') format('woff2'),
+        url('../fonts/FavoritPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url('CormorantSC-Regular.woff2') format('woff2'),
+        url('CormorantSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Favorit Pro";
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+}

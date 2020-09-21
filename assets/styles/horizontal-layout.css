@@ -1,0 +1,52 @@
+*,
+* ::after,
+* ::before {
+    box-sizing: border-box;
+}
+.main {
+    position: relative;
+}
+/* .side-bar {
+    position: fixed;
+    top: 291px;
+    right: 100px;
+    transform: rotate(90deg);
+    display: flex;
+}
+.side-bar-item {
+    margin-right: 10px;
+} */
+.grid {
+    display: flex;
+}
+
+.col {
+    width: 325px;
+}
+.rotate {
+   transform: rotate(-90deg);
+}
+.vertical {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    top: 54px;
+    right: 1px;
+}
+.margin {
+    margin-top: -200px;
+}
+.font-size-150 {
+    font-size: 150px;
+}
+.font-size-170 {
+    font-size: 170px;
+}
+.font-size-55 {
+    font-size: 55px;
+}
