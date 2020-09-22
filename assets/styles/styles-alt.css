@@ -1,0 +1,147 @@
+*,
+* ::after,
+* ::before {
+    box-sizing: border-box;
+}
+
+.col {
+    /* border: 1px solid black; */
+    width: 300px;
+    min-width: 300px;
+    height: 900px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .col-2 {
+    /* border: 1px solid black; */
+    width: 300px;
+    min-width: 300px;
+    height: 900px; 
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    
+  }
+
+  .grid{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+
+  .text {
+    font-family: "Favorit Pro";
+    font-weight: normal;
+    font-style: normal; 
+    text-transform: uppercase; 
+    font-size: 150px;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    color: black;
+  }
+  
+  .sans {
+    display: inline-block;
+    transform: translate(50px, -40px);
+  }
+  
+  .soleil {
+    display: inline-block;
+    transform: translate(-50px, 10px);
+  }
+
+  .grizzly {
+    display: inline-block;
+    transform: translate(0px, -70px);
+  }
+
+  .text-vertical-150 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: "Favorit Pro";
+    font-weight: normal;
+    font-style: normal; 
+    text-transform: uppercase; 
+    font-size: 150px;
+    white-space: nowrap;
+  }
+
+  .text-170 {
+    font-family: "Favorit Pro";
+    font-weight: normal;
+    font-style: normal; 
+    text-transform: uppercase; 
+    font-size: 170px;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+  }
+
+  .under {
+    display: inline-block;
+    transform: translate(290px, -57px);
+  }
+
+  .the-sun {
+    display: inline-block;
+    transform: translate(-299px, 62px);
+  }
+
+  .text-vertical-55 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: "Favorit Pro";
+    font-weight: normal;
+    font-style: normal; 
+    text-transform: uppercase; 
+    font-size: 55px;
+    white-space: nowrap;
+  }
+
+  .the-act {
+    display: inline-block;
+    transform: translate(0px, -30px);
+  }
+
+  .honeyland {
+    display: inline-block;
+    transform: translate(0px, 0px);
+  }
+
+  .la-causa {
+    display: inline-block;
+    transform: translate(0px, -50px);
+  }
+
+  .ukr {
+    display: inline-block;
+    transform: translate(430px, -60px);
+  }
+
+  .sheriffs {
+    display: inline-block;
+    transform: translate(-452px, 59px);
+  }
+
+  .midnight {
+    display: inline-block;
+    transform: translate(-55px, 265px);
+  }
+
+  .traveler {
+    display: inline-block;
+    transform: translate(60px, -1668px);
+  }
+
+  .call-me {
+    display: inline-block;
+    transform: translate(0px, -50px);
+  }
+
+  .homo {
+    display: inline-block;
+    transform: translate(0px, -12px);
+  }
+
