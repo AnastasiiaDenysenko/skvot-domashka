@@ -11,16 +11,7 @@
     position: relative;
     display: flex;
 }
-/* .side-bar {
-    position: fixed;
-    top: 291px;
-    right: 100px;
-    transform: rotate(90deg);
-    display: flex;
-}
-.side-bar-item {
-    margin-right: 10px;
-} */
+
 .grid {
     display: flex;
 }
@@ -59,30 +50,35 @@
 .col-back {
     width: 20px;
     position: absolute;
-    bottom: 10px;
+    bottom: -150px;
 }
 .margin-top {
     margin-top: 400px;
 }
 .back-btn {
     text-decoration: none;
+    color: black;
 }
 .movie-wrapper {
     margin-left: 60px;
-    margin-top: 1px;
+    margin-top: -25px;
 }
 .description-container {
     display: flex;
     margin-bottom: 55px;
+    margin-top: 70px;
 }
 .crew-details {
-    margin-left: 50px;
+    margin-left: 75px;
 }
 .director-info {
-    width: 210px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: 12px;
+    margin-top: -25px;
 }
 .movie-description {
-    width: 350px;
+    width: 220px;
     text-transform: none;
 }
 .font-size-24 {
@@ -108,4 +104,11 @@
     background-image: url("../images/Chris_Marker.jpg"); 
     background-repeat: repeat;
     height: 290px;
+}
+
+.herzog-image {
+    margin-top: 100px;
+    background-image: url("../images/herzog.png"); 
+    background-repeat: repeat;
+    height: 400px;
 }
