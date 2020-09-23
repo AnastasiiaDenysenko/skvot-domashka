@@ -331,6 +331,87 @@ body {
     margin: -25px 0px;
     border: none;
     }
+
+    .side-film-name {
+      position: fixed;
+      left: 0;
+      top: -25px; 
+      width: 300px;
+      min-width: 300px;
+      height: 900px; 
+      /* overflow-y: auto;  */
+    }  
+  
+    .col-back {
+      position: absolute;
+      position: fixed;
+      bottom: 0;
+      height: 100vH;
+      z-index: 100;
+      display: flex;
+      flex-direction: column-reverse;
+      color: black;
+      text-decoration: none;    
+  }
+  
+  
+  .margin-top {
+      margin-top: 400px;
+  }
+  
+  .movie-wrapper {
+      margin-left: 385px;
+      margin-top: -25px;
+  }
+  .description-container {
+      display: flex;
+      margin-bottom: 55px;
+      margin-top: 70px;
+  }
+  .crew-details {
+      margin-left: 75px;
+  }
+  .director-info {
+      width: 220px;
+      margin-left: auto;
+      margin-right: 12px;
+      margin-top: -25px;
+  }
+  .movie-description {
+      width: 220px;
+      text-transform: none;
+  }
+  .font-size-24 {
+      font-size: 24px;
+  }
+  .font2caps {
+      font-family: "Cormorant SC";
+      font-weight: normal;
+      font-style: normal;
+      text-transform: uppercase;
+      font-size: 14px;
+  }
+  
+  .font2 {
+      font-family: "Cormorant SC";
+      font-weight: normal;
+      font-style: normal;
+      text-transform: none;
+      font-size: 14px;
+  }
+  .marker-image {
+      margin-top: 100px;
+      background-image: url("../images/Chris_Marker.jpg"); 
+      background-repeat: repeat;
+      height: 290px;
+  }
+  
+  .herzog-image {
+      margin-top: 100px;
+      background-image: url("../images/herzog.png"); 
+      background-repeat: repeat;
+      height: 400px;
+  }
   
 
   
