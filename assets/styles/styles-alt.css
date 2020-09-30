@@ -162,10 +162,20 @@ body {
     display: inline-block;
     transform: translate(50px, -40px);
   }
+
+  .sans-film-page {
+    display: inline-block;
+    transform: translate(-660px, -10px);
+  }
   
   .soleil {
     display: inline-block;
     transform: translate(-50px, 10px);
+  }
+
+  .soleil-film-page {
+    display: inline-block;
+    transform: translate(-765px, 50px);
   }
 
   .grizzly {
@@ -175,7 +185,7 @@ body {
 
   .grizzly-page {
     display: inline-block;
-    transform: translate(-80px, 480px);
+    transform: translate(-60px, 480px);
   }
 
   .text-vertical-150 {
@@ -327,6 +337,36 @@ body {
     transform: rotate(90deg)
   }
 
+  .text4-menu {
+    display: flex;
+    font-family: "Favorit Pro";
+    font-weight: normal;
+    font-style: normal; 
+    text-transform: uppercase; 
+    font-size: 14px;
+    white-space: nowrap;
+    color: black;
+    text-decoration: none;
+    text-orientation: upright;
+    margin-top: 130px;
+    transform: rotate(90deg)
+  }
+
+  .text5-menu {
+    display: flex;
+    font-family: "Favorit Pro";
+    font-weight: normal;
+    font-style: normal; 
+    text-transform: uppercase; 
+    font-size: 14px;
+    white-space: nowrap;
+    color: black;
+    text-decoration: none;
+    text-orientation: upright;
+    margin-top: 150px;
+    transform: rotate(90deg)
+  }
+
   iframe {
     margin: -25px 0px;
     border: none;
@@ -410,9 +450,15 @@ body {
       margin-top: 100px;
       background-image: url("../images/herzog.png"); 
       background-repeat: repeat;
-      height: 400px;
+      height: 530px;
   }
   
+  .marker-image {
+      margin-top: 100px;
+      background-image: url("../images/Chris_Marker.jpg"); 
+      background-repeat: repeat;
+      height: 300px;
+  }
 
   
  
