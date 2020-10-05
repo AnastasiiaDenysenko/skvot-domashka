@@ -484,3 +484,19 @@ body {
     width: 315px;
     height: 200px;
   }
+
+ .grow-on-hover {
+   transition: transform 0.3s ease-in-out 0.1s; 
+ }
+
+ .grow-on-hover:hover {
+   transform: scale(0.5);
+ }
+
+ .grow-on-hover2 {
+  transition: transform 0.3s ease-in-out 0.1s; 
+}
+
+ .grow-on-hover2:hover {
+  transform: scale(0.2);
+}
