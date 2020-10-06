@@ -303,7 +303,7 @@ body {
     color: black;
     text-decoration: none;
     text-orientation: upright;
-    margin-top: 10px;
+    top: 10px;
     transform: rotate(90deg)
   }
   
@@ -505,8 +505,9 @@ body {
   position: absolute;
   left: 300px;
   top: 595px;
-  opacity: 0;
-  z-index: 100;
+  display: none;
+  /* opacity: 0; */
+  /* z-index: 100; */
 }
 
 .image2 {
@@ -514,8 +515,8 @@ body {
   position: absolute;
   left: 980px;
   top: 140px;
-  opacity: 0;
-  z-index: 1000;
+  display: none;
+  /* z-index: 1000; */
 }
 
 .image3 {
@@ -523,8 +524,8 @@ body {
   position: absolute;
   left: 35px;
   top: 80px;
-  opacity: 0;
-  z-index: 100;
+  display: none;
+  /* z-index: 100; */
 }
 
 .image4 {
@@ -532,8 +533,9 @@ body {
   position: absolute;
   left: 0px;
   top: 635px;
-  opacity: 0;
-  z-index: 100;
+  /* opacity: 0; */
+  display: none;
+  /* z-index: 100; */
 }
 
 .image5 {
@@ -541,10 +543,30 @@ body {
   position: absolute;
   left: 635px;
   top: 150px;
-  opacity: 0;
-  z-index: 1000;
+  display: none;
+  /* z-index: 1000; */
+}
+
+.image6 {
+  width: 435px;
+  position: absolute;
+  left: 975px;
+  top: 70px;
+  display: none;
+  /* z-index: 1000; */
+}
+
+.image7 {
+  width: 590px;
+  position: absolute;
+  left: 0px;
+  top: 475px;
+  /* opacity: 0; */
+  /* z-index: 1000; */
+  display: none;
 }
 
 .visible {
-  opacity: 1;
+  /* opacity: 1; */
+  display: block;
 }

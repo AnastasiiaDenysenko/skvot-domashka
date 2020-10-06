@@ -49,3 +49,23 @@ column5.addEventListener('mouseleave', function() {
     const imageToShow = document.querySelector('.image5');
     imageToShow.classList.remove('visible');
 })
+
+const column6 = document.querySelector('#on-hover-3');
+column6.addEventListener('mouseenter', function () {
+  const imageToShow = document.querySelector('.image6');
+  imageToShow.classList.add('visible');
+})
+column6.addEventListener('mouseleave', function() {
+    const imageToShow = document.querySelector('.image6');
+    imageToShow.classList.remove('visible');
+})
+
+const column7 = document.querySelector('#on-hover-3');
+column7.addEventListener('mouseenter', function () {
+  const imageToShow = document.querySelector('.image7');
+  imageToShow.classList.add('visible');
+})
+column7.addEventListener('mouseleave', function() {
+    const imageToShow = document.querySelector('.image7');
+    imageToShow.classList.remove('visible');
+})
