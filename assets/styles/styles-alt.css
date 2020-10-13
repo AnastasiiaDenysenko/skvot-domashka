@@ -145,6 +145,13 @@ body {
     display: flex;
     flex-wrap: nowrap;
     overflow: auto;
+    margin-top: 25px;
+  }
+
+  .grid-main{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
   }
 
   .text {
@@ -186,7 +193,7 @@ body {
 
   .grizzly-page {
     display: inline-block;
-    transform: translate(-60px, 480px);
+    transform: translate(-60px, 510px);
   }
 
   .text-vertical-150 {
@@ -282,19 +289,7 @@ body {
     transform: translate(0px, -12px);
   }
 
-  .side-menu {
-    position: fixed;
-    right: 0;
-    top: -3px;
-    border: 1px solid black;
-    width: 20px;
-    min-width: 20px;
-    height: 900px; 
-    overflow-y: auto; 
-  }  
-
   .text1-menu {
-    display: flex;
     font-family: "Favorit Pro";
     font-weight: normal;
     font-style: normal; 
@@ -303,9 +298,6 @@ body {
     white-space: nowrap;
     color: black;
     text-decoration: none;
-    text-orientation: upright;
-    top: 10px;
-    transform: rotate(90deg)
   }
   
   .text2-menu {
@@ -376,7 +368,7 @@ body {
     .side-film-name {
       position: fixed;
       left: 0;
-      top: -25px; 
+      top: 0px; 
       width: 300px;
       min-width: 300px;
       height: 900px; 
@@ -507,7 +499,6 @@ body {
   left: 300px;
   top: 595px;
   display: none;
-  /* opacity: 0; */
   z-index: 100;
 }
 
@@ -571,3 +562,26 @@ body {
   /* opacity: 1; */
   display: block;
 }
+
+.upper-menu {
+  position: fixed;
+  top: -1px;
+  border: 1px solid black;
+  background-color: white;
+  width: 100%;
+  height: 22px; 
+  /* overflow-x: auto;  */
+  z-index: 1000;
+}  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 1px 18px;
+  }
